@@ -1,0 +1,57 @@
+<!-- views/partials/header.ejs -->
+
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+  <div class="container">
+    <button
+      class="navbar-toggler navbar-toggler-right"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">Home Rental System</a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto ">
+        <li class="nav-item active">
+          <a class="nav-link" href="/"
+            >Home <span class="sr-only">(current)</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#our_services">Our Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#customers">Our Customers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#contact">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/dashboard">Dashboard</a>
+        </li>
+      </ul>
+    </div>
+    <form method="post" class="form-inline" action="/login">
+      <div class="input-group customize">
+        <input
+          type="text"
+          class="form-control input-customize"
+          placeholder="Username"
+          name="username"
+        />
+        <input
+          type="password"
+          class="form-control input-customize"
+          placeholder="Password"
+          name="password"
+        />
+        <input class="btn btn-success" type="submit" value="Submit" />
+      </div>
+    </form>
+  </div>
+</nav>
