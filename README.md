@@ -25,5 +25,7 @@ Users can post feedback and also send messages with their queries.
 
 # After our presentation we added dashboard on the top of navbar where it will show users who are signed up from database and also which apartment they are renting with full details, so basically there are two sections on the dashboard USERS and APARTMENT. The screenshot is given below.
 
+![Dashboard - Google Chrome 8_19_2019 1_26_22 PM_LI](https://user-images.githubusercontent.com/50562818/63246890-83409f00-c285-11e9-8562-fef4afd4fa77.jpg)
+
 ![Dashboard - Google Chrome 8_19_2019 1_10_08 PM](https://user-images.githubusercontent.com/50562818/63245939-4a072f80-c283-11e9-8837-12c3a316e52f.png)
 
